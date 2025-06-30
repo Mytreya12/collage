@@ -30,6 +30,7 @@ jobs:
       run: |
         echo "Output of main.py:"
         python main.py
+        python hello.py
 
     - name: 🧪 Run tests (if any)
       run: |
